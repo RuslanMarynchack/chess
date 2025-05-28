@@ -404,8 +404,6 @@ function handlerPawn(pawn, cells, isAddClasses) {
         if (nextMoveAttackFigure) {
             if (pawn.dataset.type !== nextMoveAttackFigure.dataset.type && isMoveValidConsideringCheck(nextMoveAttack)) {
                 getMoves(pawn, nextMoveAttack, availableMoves);
-            } else {
-
             }
         }
 
